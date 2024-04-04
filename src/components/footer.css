@@ -4,16 +4,146 @@ body{
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1b1f;
+    color: white;
+    padding: 100px;
+}
+
+.org-info {
+    width: 20%; 
+    margin-bottom: 20px;
+}
+
+.org-info h2{
+    margin-bottom: -9px;
+}
+.org-info p{
+    margin-bottom: -15px;
+    color: #6f6f71;
+}
+
+.social{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.org-services1 {
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.org-services2 {
+    width: 20%; 
+}
+
+.social-icons {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+}
+
+.social-icons li {
+    margin-right: 10px; 
+    background-color: #333;
+    border-radius: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+.social-icons li a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.org-services1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.org-services1 li {
+    margin-bottom: 25px; 
+}
+
+.org-services1 li a {
+    text-decoration: none;
+    color: #6f6f71;
+    font-size: 15px;
+}
+.org-services2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.org-services2 li {
+    margin-bottom: 25px; 
+}
+
+.org-services2 li a {
+    text-decoration: none;
+    color: #6f6f71;
+    font-size: 15px;
+}
+
+.org-services1 li a:hover{
+    color: white;
+}
+.org-services2 li a:hover{
+    color: white;
+}
+
+.terms-container{
+    background-color: #1a1b1f;
+    margin-top: -25px;
+    margin-bottom: -16px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+.terms{
+    width: 70%;
+    margin: 100px;
+    margin-top: -1px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    padding: 20px;
+}
+.terms h3{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    word-spacing: 4px;
+    letter-spacing: 1.5px;
+}
+.terms hr{
+    width: 40%;
+}
+.terms p{
+    color: #808080;
+    font-size: 15px;
+    line-height: 25px;
+}
+.terms span{
+    color: #2e7eed;
+}
+
 .copyright {
-    height: 12vh;
+    height: 13vh;
     background-color: #343a40;
     text-align: center;
-    padding: 29px; 
+    padding: 32px; 
 }
 
 .copyright p {
     color: #6c757d;
-    font-size: 19px;
+    font-size: 17px;
     margin: 0; 
 }
 
