@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.copyright {
+    height: 12vh;
+    background-color: #343a40;
+    text-align: center;
+    padding: 29px; 
+}
+
+.copyright p {
+    color: #6c757d;
+    font-size: 19px;
+    margin: 0; 
+}
+
+#scrollToTopButton {
+    z-index: 999;
+    color: white;
+    background-color: #2e7eed;
+    position: fixed;
+    margin-left: 10px;
+    height: 50px; 
+    width: 50px; 
+    bottom: 70px; 
+    left: 9px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 3px;
+    font-size: 40px;
+    padding-top: 8px;
+}
+
+#scrollToTopButton:hover{
+    background-color: #1A1B1F;
+}
