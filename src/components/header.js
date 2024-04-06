@@ -47,7 +47,7 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex',height: '9vh'}}>
+    <Box sx={{ display: 'flex', height: '9vh' }}>
       <CssBaseline />
       <AppBar component="nav" sx={{ backgroundColor: '#fff' }}>
         <Toolbar>
@@ -79,6 +79,9 @@ function Header(props) {
                     color: 'white',
                     cursor: 'pointer',
                     borderRadius: 2,
+                    '&:hover': {
+                      backgroundColor: '#343a40',
+                    },
                   }),
                 }}
               >
@@ -95,7 +98,7 @@ function Header(props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, 
+            keepMounted: true,
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
