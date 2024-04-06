@@ -2,12 +2,17 @@ import "./footer.css";
 import React from "react";
 
 const term = {
-    width: "99%",
+    width: "98%",
     height: "50vh",
     overflowX: "hidden",
     overflowY: "scroll",
     marginLeft: "auto",
     marginRight: "auto",
+    scrollbarWidth: "thin",
+    scrollbarColor: "transparent transparent #00000000",
+    "::-webkit-scrollbar": {
+        width: "5px",
+    },
 };
 
 const Term = () => {
