@@ -1,8 +1,11 @@
 .landingPage-container {
     display: flex;
     flex-direction: column;
+}
+.hero-section{
     background-color: rgb(45, 45, 248);
     padding: 0 200px;
+    height: 70vh;
 }
 .main-text{
     width: 100%;
@@ -53,13 +56,15 @@
     display: flex;
     background-color: white;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
     height: 120px;
     padding: 20px;
-    margin-bottom: 90px;
+    margin-top: -60px;
+    margin-bottom: 85px;
     border-radius: 5px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
     line-height: 1px;
+    margin-left: 200px;
 }
 .user-bar h1 {
     text-align: center;

@@ -1,23 +1,28 @@
 import React from "react";
-import './landingPage.css';
-import HeroImg from '../resource/NewHero.svg';
+import "./landingPage.css";
+import HeroImg from "../resource/NewHero.svg";
 
 const LandingPage = () => {
     return (
         <div className="landingPage-container">
-            <div className="text-image">
-                <div className="main-text">
-                    <h1>Trade Smarter,<br/> Not Harder</h1>
-                    <h3>Where efficiency meets success</h3>
-                    <p>
-                        Our goal is to simplify the investment process,<br /> making
-                        it as effortless as possible, even if you're new to
-                        investing.
-                    </p>
-                    <button>GET STARTED</button>
-                </div>
-                <div className="landingPage-img">
-                    <img src={HeroImg} alt="Hero Image"/>
+            <div className="hero-section">
+                <div className="text-image">
+                    <div className="main-text">
+                        <h1>
+                            Trade Smarter,
+                            <br /> Not Harder
+                        </h1>
+                        <h3>Where efficiency meets success</h3>
+                        <p>
+                            Our goal is to simplify the investment process,
+                            <br /> making it as effortless as possible, even if
+                            you're new to investing.
+                        </p>
+                        <button>GET STARTED</button>
+                    </div>
+                    <div className="landingPage-img">
+                        <img src={HeroImg} alt="Hero Image" />
+                    </div>
                 </div>
             </div>
             <div className="user-bar">
