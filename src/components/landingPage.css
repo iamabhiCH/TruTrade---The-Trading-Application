@@ -52,6 +52,9 @@
 .text-image button:hover {
     background-color: #343a40;
 }
+.landingPage-img img{
+    margin-top: 20px;
+}
 .user-bar {
     display: flex;
     background-color: white;
