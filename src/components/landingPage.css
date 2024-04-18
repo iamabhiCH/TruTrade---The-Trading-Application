@@ -50,10 +50,11 @@
     cursor: pointer;
 }
 .text-image button:hover {
-    background-color: #343a40;
+/*     background-color: #343a40; */
+    background-color: gray;
 }
 .landingPage-img img{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .user-bar {
     display: flex;
