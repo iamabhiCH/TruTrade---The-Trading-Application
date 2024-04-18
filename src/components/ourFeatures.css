@@ -1,0 +1,18 @@
+.features-containcer{
+    margin-top: -40px;
+}
+.features-Head{
+    align-items: center;
+}
+.features-Head h1{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+.features-Head p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    width: 32%;
+    margin-left: 570px;
+}
