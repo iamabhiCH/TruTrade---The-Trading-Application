@@ -17,9 +17,36 @@
 #c2 {
     height: 350px;
 }
+.card1-para {
+    color: #808080;
+}
 
 .card1:hover {
     background-color: #5cd3f8;
     background: url("../resource/service-bg.webp") no-repeat center;
     background-size: cover;
+    color: #fff !important;
 }
+.card1:hover .card1-para {
+    color: white !important;
+}
+
+.card1-img {
+    display: block;
+}
+.card1-img-hover {
+    display: none;
+}
+
+.card1:hover > .card1-img {
+    display: none;
+}
+
+.card1:hover > .card1-img-hover {
+    display: block;
+}
+
+/* .card1-img:nth-child(1):hover{
+    color: #5cd3f8;
+    background: url("../resource/service-icon-hover-01.webp") no-repeat left;
+} */

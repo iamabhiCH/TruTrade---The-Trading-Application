@@ -10,6 +10,9 @@ const card = ({ data }) => {
                         <div className="card1-img">
                             <img src={value.icon} alt="Icon1" />
                         </div>
+                        <div className="card1-img-hover">
+                            <img src={value.hoverIcon} alt="Icon1" />
+                        </div>
                         <div className="card1-heading">
                             <h2>{value.title}</h2>
                         </div>
