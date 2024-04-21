@@ -8,10 +8,10 @@ const card = ({ data }) => {
                 {data.map((value, index) => (
                     <div className="card1" key={index} id={value.id}>
                         <div className="card1-img">
-                            <img src={value.icon} alt="Icon1" />
+                            {value.icon && <img src={value.icon} alt="Icon1" />}
                         </div>
                         <div className="card1-img-hover">
-                            <img src={value.hoverIcon} alt="Icon1" />
+                            {value.icon && <img src={value.hoverIcon} alt="Icon1" />}
                         </div>
                         <div className="card1-heading">
                             <h2>{value.title}</h2>

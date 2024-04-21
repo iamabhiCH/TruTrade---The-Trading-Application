@@ -1,0 +1,39 @@
+.spectrum-section h1{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.spectrum-section p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    color: #808080;
+}
+
+.parent-spec {
+    display: flex;
+    width: 100%;
+}
+.hero-spec-image{
+    width: 40%;
+}
+.hero-spec-card{
+    width: 60%;
+}
+
+.hero-spec-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hero-spec-image > img{
+    width: 100%;
+}
+
+.hero-spec-card{
+    display: flex;
+    flex-wrap: wrap;
+}
