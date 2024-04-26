@@ -1,0 +1,114 @@
+.pricing-head h1{
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+.pricing-head p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -35px;
+    color: #808080;
+}
+
+.pricingCard-container {
+    display: flex;
+    padding: 0 200px;
+    margin-bottom: 60px;
+    justify-content: space-evenly;
+}
+.pricingCard {
+    border-radius: 1rem;
+    padding: 1.1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    width: 370px;
+    height: 800px;
+}
+.plan-name h6 {
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pr-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr-img img {
+    box-sizing: border-box;
+    width: 90px;
+    height: 100px;
+    border: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.priceday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceday > h1 {
+    font-size: 3rem;
+}
+
+.priceday > h1 > span {
+    font-size: 16px !important;
+    color: #666565;
+}
+.line {
+    display: block;
+    width: 28%;
+    height: 7px;
+    background-color: rgb(0, 123, 255);
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
+    border-radius: 1.5rem;
+}
+
+.plan-features {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.plan-features p {
+    color: #666565;
+    font-size: 16px;
+    padding: 1px;
+    display: flex;
+    gap: 3px;
+}
+.price-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.price-btn button {
+    color: white;
+    background-color: rgb(0, 123, 255);
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 23px;
+}
+.price-btn button:hover {
+    background-color: #1850a3;
+}
+
+.priceMenus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.priceMenuBtn > button {
+    padding: 10px 20px;
+}
