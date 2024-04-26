@@ -11,6 +11,7 @@ const Pricing = () => {
         unlimited: 81,
         limited: 48,
     });
+    const [active, setActive] = useState("monthly");
 
     const pricingData = [
         {
@@ -61,6 +62,7 @@ const Pricing = () => {
             unlimited: 81,
             limited: 48,
         });
+        setActive("monthly");
     };
     const handleQuarterly = () => {
         setPriceData({
@@ -68,6 +70,7 @@ const Pricing = () => {
             unlimited: 69,
             limited: 41,
         });
+        setActive("quarterly");
     };
     const handleYearly = () => {
         setPriceData({
@@ -75,6 +78,7 @@ const Pricing = () => {
             unlimited: 58,
             limited: 34,
         });
+        setActive("yearly");
     };
 
     return (
@@ -84,13 +88,25 @@ const Pricing = () => {
                 <p>Pricing That Adapts to Your Success</p>
             </div>
             <div className="priceMenus">
-                <div className="priceMenuBtn">
+                <div
+                    className={`priceMenuBtn ${
+                        active === "monthly" ? "btnSelected" : ""
+                    }`}
+                >
                     <button onClick={handleMonthly}>Monthly</button>
                 </div>
-                <div className="priceMenuBtn">
+                <div
+                    className={`priceMenuBtn ${
+                        active === "quarterly" ? "btnSelected" : ""
+                    }`}
+                >
                     <button onClick={handleQuarterly}>Quarterly</button>
                 </div>
-                <div className="priceMenuBtn">
+                <div
+                    className={`priceMenuBtn ${
+                        active === "yearly" ? "btnSelected" : ""
+                    }`}
+                >
                     <button onClick={handleYearly}>Yearly</button>
                 </div>
             </div>

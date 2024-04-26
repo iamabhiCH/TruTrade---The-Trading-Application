@@ -1,9 +1,9 @@
-.pricing-head h1{
+.pricing-head h1 {
     font-size: 3rem;
     font-weight: 100;
     text-align: center;
 }
-.pricing-head p{
+.pricing-head p {
     font-size: 18px;
     text-align: center;
     margin-top: -35px;
@@ -108,7 +108,37 @@
     align-items: center;
     padding: 40px 0;
 }
+.priceMenuBtn{
+    background-color: #d7d7d7;
+}
+
+.priceMenuBtn:nth-child(1){
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.priceMenuBtn:nth-child(3){
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 .priceMenuBtn > button {
+    border-radius: 20px;
     padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #676a6c;
+    background-color: transparent;
+    transition: 0.1s ease-in-out all;
+}
+
+.priceMenuBtn > button:active {
+    background-color: rgb(0, 123, 255);
+    color: #fff;
+}
+
+.btnSelected > button {
+    background-color: rgb(0, 123, 255);
+    color: #fff;
 }
