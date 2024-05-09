@@ -1,0 +1,11 @@
+/* position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    width: 65%;
+    height: 100%;
+    content: "";
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    background: linear-gradient(45deg, rgb(0, 158, 197) 0%, rgb(2, 34, 91) 20%, rgb(46, 126, 237) 100%); */
