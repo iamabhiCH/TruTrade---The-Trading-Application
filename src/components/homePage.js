@@ -4,6 +4,7 @@ import Features from "./ourFeatures";
 import Spectrum from './spectrum';
 import Pricing from './pricing';
 import Testonomial from "./testinomial";
+import Contact from "./contact";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Spectrum />
             <Pricing />
             <Testonomial />
+            <Contact />
         </>
     );
 };
