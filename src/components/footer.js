@@ -1,6 +1,6 @@
 import "./footer.css";
 import React from "react";
-import TermsOfUse from './term.js';
+import TermsOfUse from "./term.js";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
@@ -9,17 +9,6 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Footer = () => {
-    document.addEventListener("DOMContentLoaded", function () {
-        const scrollToTopButton = document.getElementById("scrollToTopButton");
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        }
-        scrollToTopButton.addEventListener("click", scrollToTop);
-    });
-
     return (
         <footer>
             <div>
@@ -91,9 +80,14 @@ const Footer = () => {
                     <TermsOfUse />
                 </div>
                 <div className="copyright">
-                    <p>Copyright © 2024, All right reserved to TruTrade. || Designed & Developed with ❤️ by Abhishek Yadav.</p>
+                    <p>
+                        Copyright © 2024, All right reserved to TruTrade. ||
+                        Designed & Developed with ❤️ by Abhishek Yadav.
+                    </p>
                 </div>
-                <button id="scrollToTopButton">^</button>
+                <a href="#scrollOnTop">
+                    <button id="scrollToTopButton">^</button>
+                </a>
             </div>
         </footer>
     );

@@ -1,4 +1,21 @@
- /* .testinomial-sec{   
+.hero-testimonial {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px !important;
+    height: 80vh;
+    margin: 7% 0;
+}
+.testinomial-sec {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px !important;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -9,5 +26,91 @@
     content: "";
     border-top-left-radius: 500px;
     border-bottom-left-radius: 500px;
-    background: linear-gradient(45deg, rgb(0, 158, 197) 0%, rgb(2, 34, 91) 20%, rgb(46, 126, 237) 100%);
-} */
+    background: linear-gradient(
+        45deg,
+        rgb(0, 158, 197) 0%,
+        rgb(2, 34, 91) 20%,
+        rgb(46, 126, 237) 100%
+    );
+}
+
+.testonomial-comments,
+.testonomial-heading {
+    width: 50%;
+}
+
+.testonomial-comments {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.testi-slider {
+    width: 90%;
+    height: 55vh;
+    background-color: #2e7eed;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-content {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tet{
+    padding: 65px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+}
+.auth{
+    padding: 65px;
+    padding-top: 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.slick-prev,
+.slick-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 0;
+    color: black;
+    background: rgb(32, 45, 45) !important;
+    border-radius: 100%;
+}
+.testomonial-heading h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: -25px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    margin-top: -20px;
+}
+.testomonial-heading h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 60%;
+    line-height: 40px;
+    padding-left: 40px;
+}
+.testomonial-heading p{
+    color: #fff;
+    padding-left: 40px;
+    width: 75%;
+    margin-top: 56px;
+}

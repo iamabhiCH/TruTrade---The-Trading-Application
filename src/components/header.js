@@ -29,7 +29,7 @@ function Header(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2, fontWeight: 'bold' }}>
-        TruTrade
+        <span id='scrollOnTop'>TruTrade</span> 
       </Typography>
       <Divider />
       <List>
