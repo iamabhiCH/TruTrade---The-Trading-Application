@@ -55,9 +55,9 @@ const testonomial = () => {
                     </div>
                     <div className="slider-content">
                         <h4 className="tet">
-                            “TruTrade has transformed my trading experience.
-                            The platform's intuitive design and robust features
-                            make it a standout choice. I appreciate the constant
+                            “TruTrade has transformed my trading experience. The
+                            platform's intuitive design and robust features make
+                            it a standout choice. I appreciate the constant
                             updates and the support from the TruTrade team.
                             Trading has never been this smooth.”
                         </h4>

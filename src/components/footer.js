@@ -16,9 +16,9 @@ const Footer = () => {
                     <div className="org-info">
                         <h2 className="org-name">TruTrade</h2>
                         <p>AB software solutions pvt. ltd.</p>
-                        <p>Siwan, Bihar (INDIA) - 841235</p>
+                        <p>Siwan, Bihar (INDIA)</p>
                         <p>Email : ab@trutrade.com</p>
-                        <p>Phone : +91 1117704119</p>
+                        <p>Phone : +91-1117704119</p>
                     </div>
                     <div className="social">
                         <ul className="social-icons">
