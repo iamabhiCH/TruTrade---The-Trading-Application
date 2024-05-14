@@ -8,7 +8,7 @@ const contact = () => {
                 <div className="contact-heading">
                     <h2>Feel free to contact us anytime</h2>
                     <p>
-                        Mail your query at <a>support@trutrade.com</a>
+                        Mail your query at <a href="mailto:support@trutrade.com">support@trutrade.com</a>
                     </p>
                     <p>Telephone : 007-007-2407</p>
                     <p>Mobile : +91-1117704119</p>
