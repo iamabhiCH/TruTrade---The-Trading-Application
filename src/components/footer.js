@@ -23,27 +23,27 @@ const Footer = () => {
                     <div className="social">
                         <ul className="social-icons">
                             <li>
-                                <a href="#">
+                                <a href="/test">
                                     <LinkedInIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/test">
                                     <XIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/test">
                                     <FacebookIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/test">
                                     <YouTubeIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/test">
                                     <InstagramIcon />
                                 </a>
                             </li>
@@ -52,26 +52,26 @@ const Footer = () => {
                     <div className="org-services1">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="/test">Home</a>
                             </li>
                             <li>
-                                <a href="#">Features</a>
+                                <a href="/test">Features</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="/test">Contact</a>
                             </li>
                         </ul>
                     </div>
                     <div className="org-services2">
                         <ul>
                             <li>
-                                <a href="#">Pricing</a>
+                                <a href="/test">Pricing</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="/test">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#">Refund Policy</a>
+                                <a href="/test">Refund Policy</a>
                             </li>
                         </ul>
                     </div>
