@@ -72,7 +72,7 @@ const testonomial = () => {
                             never miss a beat. Kudos to the TruTrade team for a
                             top-notch platform”
                         </h4>
-                        <h3 className="auth">Akash Sharma</h3>
+                        <h3 className="auth">Manish Yadav</h3>
                     </div>
                 </Slider>
             </div>
