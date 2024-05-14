@@ -35,7 +35,7 @@ const spectrum = () => {
             </div>
             <div className="parent-spec">
                 <div className="hero-spec-image">
-                    <img src={Features} alt="Hero Image" />
+                    <img src={Features} alt="Hero" />
                 </div>
                 <div className="hero-spec-card">
                     <Card data={cardContent} />

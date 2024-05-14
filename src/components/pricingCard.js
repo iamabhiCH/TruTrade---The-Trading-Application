@@ -24,7 +24,7 @@ const pricingCard = ({ data }) => {
                             {value?.features?.map((feature,cross) => {
                                 return (
                                     <p>
-                                        {value.crossIndex == cross || value.crossIndex + 2 == cross + 1 ? (
+                                        {value.crossIndex === cross || value.crossIndex + 2 === cross + 1 ? (
                                             <div>
                                                 <ImCross color="#007bff" size={12} />
                                             </div>

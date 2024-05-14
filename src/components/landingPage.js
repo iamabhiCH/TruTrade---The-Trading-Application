@@ -21,7 +21,7 @@ const LandingPage = () => {
                         <button>GET STARTED</button>
                     </div>
                     <div className="landingPage-img">
-                        <img src={HeroImg} alt="Hero Image" />
+                        <img src={HeroImg} alt="Hero" />
                     </div>
                 </div>
             </div>
