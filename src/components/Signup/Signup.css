@@ -1,0 +1,44 @@
+.signup-container{
+    margin-top: -15px;
+    padding: 0;
+}
+.signup-right{
+    background-color: #f3f6f9;
+    width: 650px;
+    height: 100vh;
+}
+.signup-right h1{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    color: #000;
+    flex-grow: 1;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.signup-slider{
+    height: 350px;
+    width: 350px;
+    aspect-ratio: auto 350 / 350;
+    margin: 100px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.signup-right h2{
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-top: 35px;
+}
+.signup-right p{
+    font-size: 12px;
+    color: hsl(206.79deg 24.35% 54.9%);
+    width: 100%;
+    text-align: center;
+    margin-top: -11px;
+}

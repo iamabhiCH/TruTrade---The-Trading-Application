@@ -5,29 +5,6 @@ import Slider from "react-slick";
 import SignupImg1  from "../../resource/signup1.svg";
 import SignupImg2  from "../../resource/signup2.svg";
 
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    console.log(className);
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block" }}
-            onClick={onClick}
-        />
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block" }}
-            onClick={onClick}
-        />
-    );
-}
-
 const Signup = () => {
     var settings = {
         dots: true,
@@ -37,8 +14,6 @@ const Signup = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
     };
 
     return (
@@ -54,6 +29,8 @@ const Signup = () => {
                             <img src={SignupImg2} alt="signupImage"/>
                         </div>
                     </Slider>
+                    <h2>Welcome Back!</h2>
+                    <p>Login into your account to start adding strategies to your trades!</p>
                 </div>
             </div>
             <div className="signup-left"></div>
