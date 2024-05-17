@@ -5,6 +5,7 @@ import './login.css'
 import LoginImg1  from "../../resource/signup1.svg";
 import LoginImg2  from "../../resource/signup2.svg";
 
+const CustomArrow = () => null;
 
 const Login = () => {
 
@@ -16,6 +17,8 @@ const Login = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
+    prevArrow: <CustomArrow />,
+    nextArrow: <CustomArrow />
 };
 
   return (

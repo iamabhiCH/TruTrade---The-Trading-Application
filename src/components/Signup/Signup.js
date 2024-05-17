@@ -2,8 +2,10 @@ import React from "react";
 import "./Signup.css";
 import Slider from "react-slick";
 
-import SignupImg1  from "../../resource/signup1.svg";
-import SignupImg2  from "../../resource/signup2.svg";
+import SignupImg1 from "../../resource/signup1.svg";
+import SignupImg2 from "../../resource/signup2.svg";
+
+const CustomArrow = () => null;
 
 const Signup = () => {
     var settings = {
@@ -14,6 +16,8 @@ const Signup = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
+        prevArrow: <CustomArrow />,
+        nextArrow: <CustomArrow />,
     };
 
     return (
@@ -23,14 +27,17 @@ const Signup = () => {
                 <div className="signup-slider">
                     <Slider {...settings} className="s-slider">
                         <div className="slider-sign-content">
-                            <img src={SignupImg1} alt="signupImage"/>
+                            <img src={SignupImg1} alt="signupImage" />
                         </div>
                         <div className="slider-sign-content">
-                            <img src={SignupImg2} alt="signupImage"/>
+                            <img src={SignupImg2} alt="signupImage" />
                         </div>
                     </Slider>
                     <h2>Welcome Back!</h2>
-                    <p>Login into your account to start adding strategies to your trades!</p>
+                    <p>
+                        Login into your account to start adding strategies to
+                        your trades!
+                    </p>
                 </div>
             </div>
             <div className="signup-left"></div>
