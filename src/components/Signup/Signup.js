@@ -1,6 +1,7 @@
 import React from "react";
 import "./Signup.css";
 import Slider from "react-slick";
+import EmailIcon from '@mui/icons-material/Email';
 
 import SignupImg1 from "../../resource/signup1.svg";
 import SignupImg2 from "../../resource/signup2.svg";
@@ -43,7 +44,16 @@ const Signup = () => {
             <div className="signup-left">
                 <div className="signup-content">
                     <h1>Welcome!</h1>
-                    <p>Please enter your email to send OTP! or go back to</p>
+                    <p>
+                        Please enter your email to send OTP! or go back to Login
+                    </p>
+                    <form>
+                        <div className="signup-form">
+                            <EmailIcon style={{ color: '#123591' }} />
+                            <input type="email" placeholder="Email" />
+                        </div>
+                    </form>
+                    <h6>Copyright © 2024 TruTrade. All rights reserved.</h6>
                 </div>
             </div>
         </div>
