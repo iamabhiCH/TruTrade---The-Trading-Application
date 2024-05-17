@@ -40,7 +40,12 @@ const Signup = () => {
                     </p>
                 </div>
             </div>
-            <div className="signup-left"></div>
+            <div className="signup-left">
+                <div className="signup-content">
+                    <h1>Welcome!</h1>
+                    <p>Please enter your email to send OTP! or go back to</p>
+                </div>
+            </div>
         </div>
     );
 };
