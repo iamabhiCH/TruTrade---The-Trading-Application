@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 
 const drawerWidth = 240;
 const navItems = ['Home', 'Features', 'Contact', 'Pricing', 'Get Started'];
@@ -69,24 +70,35 @@ function Header(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }, marginRight: 25 }}>
             {navItems.map((item, index) => (
-              <Button
-                key={item}
-                sx={{
-                  color: '#000',
-                  ...(index !== navItems.length - 1 && { marginRight: 3.5 }),
-                  ...(item === 'Get Started' && {
-                    backgroundColor: '#2e7eed',
-                    color: 'white',
-                    cursor: 'pointer',
-                    borderRadius: 2,
-                    '&:hover': {
-                      backgroundColor: '#343a40',
-                    },
-                  }),
-                }}
-              >
-                {item}
-              </Button>
+              <React.Fragment key={item}>
+                {item === 'Get Started' ? (
+                  <Link to="/login" style={{ textDecoration: 'none' }}> {/* Wrap Button with Link */}
+                    <Button
+                      sx={{
+                        backgroundColor: '#2e7eed',
+                        color: 'white',
+                        cursor: 'pointer',
+                        borderRadius: 2,
+                        '&:hover': {
+                          backgroundColor: '#343a40',
+                        },
+                      }}
+                    >
+                      {item}
+                    </Button>
+                  </Link>
+                ) : (
+                  <Button
+                    key={item}
+                    sx={{
+                      color: '#000',
+                      ...(index !== navItems.length - 1 && { marginRight: 3.5 }),
+                    }}
+                  >
+                    {item}
+                  </Button>
+                )}
+              </React.Fragment>
             ))}
           </Box>
         </Toolbar>

@@ -88,7 +88,8 @@
     justify-content: center;
     margin: 40px;
 }
-.price-btn button {
+.btn-link{
+    text-decoration: none;
     color: white;
     background-color: rgb(0, 123, 255);
     width: 100%;
@@ -97,8 +98,9 @@
     padding: 10px;
     border: none;
     border-radius: 23px;
+    text-align: center;
 }
-.price-btn button:hover {
+.btn-link:hover {
     background-color: #1850a3;
 }
 

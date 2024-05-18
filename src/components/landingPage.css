@@ -40,7 +40,7 @@
     font-size: 1rem;
     margin-bottom: 37px;
 }
-.text-image button {
+.btn {
     color: #fff;
     background-color: #2e7eed;
     border: none;
@@ -48,8 +48,9 @@
     padding: 15px;
     font-size: 1.1rem;
     cursor: pointer;
+    text-decoration: none;
 }
-.text-image button:hover {
+.btn:hover {
     background-color: gray;
 }
 .landingPage-img img{

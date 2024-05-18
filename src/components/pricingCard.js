@@ -2,6 +2,7 @@ import React from "react";
 import "./pricingCard.css";
 import { TiTick } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
+import { Link } from "react-router-dom";
 const pricingCard = ({ data }) => {
     return (
         <div>
@@ -37,7 +38,7 @@ const pricingCard = ({ data }) => {
                             })}
                         </div>
                         <div className="price-btn">
-                            <button>Get Started</button>
+                            <Link to="/login" className="btn-link">Get Started</Link>
                         </div>
                     </div>
                 ))}

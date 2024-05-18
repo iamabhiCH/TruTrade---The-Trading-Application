@@ -1,6 +1,7 @@
 import React from "react";
 import "./landingPage.css";
 import HeroImg from "../resource/NewHero.svg";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -18,7 +19,7 @@ const LandingPage = () => {
                             <br /> making it as effortless as possible, even if
                             you're new to investing.
                         </p>
-                        <button>GET STARTED</button>
+                        <Link to="/login" className="btn">GET STARTED</Link>
                     </div>
                     <div className="landingPage-img">
                         <img src={HeroImg} alt="Hero" />
