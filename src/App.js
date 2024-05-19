@@ -1,7 +1,5 @@
 import "./App.css";
-import Header from "./components/header";
 import Home from "./components/homePage";
-import Footer from "./components/footer";
 import axios from "axios";
 import { useEffect } from "react";
 import { Route,Routes } from "react-router-dom";
