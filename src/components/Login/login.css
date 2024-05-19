@@ -1,13 +1,14 @@
-.login-container{
+.login-container {
     margin-top: -15px;
     padding: 0;
+    display: flex;
 }
-.login-right{
+.login-right {
     background-color: #f3f6f9;
     width: 650px;
     height: 100vh;
 }
-.login-right h1{
+.login-right h1 {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
@@ -18,7 +19,7 @@
     padding-top: 40px;
     padding-left: 60px;
 }
-.login-slider{
+.login-slider {
     height: 350px;
     width: 350px;
     aspect-ratio: auto 350 / 350;
@@ -27,7 +28,7 @@
     margin-top: 40px;
     margin-left: 110px;
 }
-.login-right h2{
+.login-right h2 {
     font-weight: 500;
     font-size: 1.6rem;
     text-align: center;
@@ -35,10 +36,122 @@
     word-spacing: 2px;
     padding-top: 35px;
 }
-.login-right p{
+.login-right p {
     font-size: 12px;
     color: hsl(206.79deg 24.35% 54.9%);
     width: 100%;
     text-align: center;
     margin-top: -11px;
+}
+.login-content {
+    padding: 115px;
+    padding-left: 240px;
+}
+.login-content h1 {
+    font-size: 1.8409rem;
+    font-family: HelixSemiBold;
+    font-weight: 500;
+    word-spacing: 1px;
+    margin-bottom: -12px;
+    text-align: center;
+}
+.login-content p {
+    color: hsl(206.79deg 24.35% 54.9%);
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin-left: 60px;
+}
+/* .login-page-switch {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    color: #123591;
+    border-radius: 3px; 
+}
+
+.login-page-switch:hover {
+    background-color: hsl(205, 35%, 93%);
+} */
+.login-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.emailIcon {
+    position: absolute;
+    left: 15px;
+}
+.emailInput {
+    width: 100%;
+    padding: 10px 50px;
+    border-radius: 8px;
+    border: 2px solid hsl(207, 26%, 63%);
+    font-size: 17px;
+}
+.login-form input:focus {
+    border-color: #123591 !important;
+    outline: none;
+}
+.lockIcon {
+    position: absolute;
+    left: 15px;
+    font-size: 19px;
+    z-index: 999;
+}
+.passInput {
+    font-size: 17px;
+    width: 80%;
+    padding: 15px 50px;
+    border-radius: 8px;
+    border: 2px solid hsl(207, 26%, 63%);
+}
+.openAankh{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 95px;
+}
+.bandAankh {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 95px;
+}
+.login-content button {
+    margin-top: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #123591;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.login-content button:hover {
+    background-color: hsl(207, 97%, 48%);
+}
+.login-content h6 {
+    font-size: 17px;
+    color: hsl(206, 31%, 62%);
+    text-align: center;
+    margin-top: 220px;
+    font-weight: 200;
+}
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    cursor: pointer;
 }

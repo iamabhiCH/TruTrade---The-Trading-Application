@@ -40,6 +40,10 @@
 .contact-heading h2{
     margin-bottom: 40px;
 }
+.contact-heading a{
+    text-decoration: none;
+    color: #fff;
+}
 .contact-content{
     border-radius: 25px;
     padding: 80px;

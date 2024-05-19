@@ -103,6 +103,9 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+.signup-content button:hover{
+    background-color: hsl(207, 97%, 48%);
+}
 .signup-content h6 {
     font-size: 17px;
     color: hsl(206, 31%, 62%);
