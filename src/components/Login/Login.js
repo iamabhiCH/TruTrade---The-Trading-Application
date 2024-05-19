@@ -5,6 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LoginImg1 from "../../resource/signup1.svg";
 import LoginImg2 from "../../resource/signup2.svg";
 import { FaUnlockAlt, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const CustomArrow = () => null;
 
@@ -84,14 +85,20 @@ const Login = () => {
                                     onClick={togglePasswordVisibility}
                                 >
                                     {showPassword ? (
-                                        <FaRegEyeSlash />
-                                    ) : (
                                         <FaRegEye />
+                                    ) : (
+                                        <FaRegEyeSlash />
                                     )}
                                 </div>
                             </div>
                         </div>
+                        <div className="forgetPass">
+                            <a href="/signup">Forget Password?</a>
+                        </div>
                         <button>Continue</button>
+                        <div className="dha">
+                            <p>Don't have an account? <Link to="/signup" className="dhas">Sign Up</Link></p>
+                        </div>
                     </form>
                     <h6>
                         Copyright © 2024 TruTrade. All rights reserved.

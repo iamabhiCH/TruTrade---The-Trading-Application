@@ -65,7 +65,6 @@
     color: #123591;
     border-radius: 3px; 
 }
-
 .login-page-switch:hover {
     background-color: hsl(205, 35%, 93%);
 }
@@ -110,6 +109,6 @@
     font-size: 17px;
     color: hsl(206, 31%, 62%);
     text-align: center;
-    margin-top: 220px;
+    margin-top: 95px;
     font-weight: 200;
 }

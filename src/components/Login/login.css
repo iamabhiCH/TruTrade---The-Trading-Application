@@ -8,6 +8,9 @@
     width: 650px;
     height: 100vh;
 }
+.login-left{
+    margin-left: -55px;
+}
 .login-right h1 {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 500;
@@ -62,17 +65,6 @@
     width: 80%;
     margin-left: 60px;
 }
-/* .login-page-switch {
-    font-size: 15px;
-    text-decoration: none;
-    padding: 5px;
-    color: #123591;
-    border-radius: 3px; 
-}
-
-.login-page-switch:hover {
-    background-color: hsl(205, 35%, 93%);
-} */
 .login-form {
     position: relative;
     display: flex;
@@ -140,18 +132,46 @@
     font-size: 17px;
     color: hsl(206, 31%, 62%);
     text-align: center;
-    margin-top: 220px;
+    margin-top: 80px;
     font-weight: 200;
 }
 .password-input-container {
     position: relative;
     width: 100%;
 }
-
 .password-toggle {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 25px;
+    cursor: pointer;
+}
+.forgetPass{
+    margin-top: 10px;
+    text-align: end;
+}
+.forgetPass a{
+    text-decoration: none;
+    color: #123591;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "sans-serif";
+    cursor: pointer;
+}
+.dha{
+    margin-top: 20px;
+    text-align: center;
+}
+.dha a{
+    text-decoration: none;
+}
+.dhas{
+    font-size: 15px;
+    padding: 5px;
+    color: #123591;
+    border-radius: 3px; 
+}
+.dhas:hover{
+    background-color: hsl(205, 35%, 93%);
     cursor: pointer;
 }
