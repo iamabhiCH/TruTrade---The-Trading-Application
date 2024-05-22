@@ -132,6 +132,7 @@ body{
 }
 .terms span{
     color: #2e7eed;
+    cursor: pointer;
 }
 
 .copyright {
