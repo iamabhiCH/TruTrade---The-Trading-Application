@@ -5,9 +5,10 @@ import EmailIcon from "@mui/icons-material/Email";
 import { Link } from "react-router-dom";
 import SignupImg1 from "../../resource/signup1.svg";
 import SignupImg2 from "../../resource/signup2.svg";
-import { FaUnlockAlt, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
+import { FaUnlockAlt} from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import axios from "axios";
+// , FaRegEye, FaRegEyeSlash 
 const CustomArrow = () => null;
 
 const Signup = () => {
