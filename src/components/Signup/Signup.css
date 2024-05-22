@@ -112,3 +112,14 @@
     margin-top: 95px;
     font-weight: 200;
 }
+.togglePasswordIcon {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    z-index: 1;
+    color: #123591;
+}
+
+.togglePasswordIcon:hover {
+    color: #000;
+}

@@ -5,10 +5,9 @@ import EmailIcon from "@mui/icons-material/Email";
 import { Link } from "react-router-dom";
 import SignupImg1 from "../../resource/signup1.svg";
 import SignupImg2 from "../../resource/signup2.svg";
-import { FaUnlockAlt} from "react-icons/fa";
+import { FaUnlockAlt, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import axios from "axios";
-// , FaRegEye, FaRegEyeSlash 
 const CustomArrow = () => null;
 
 const Signup = () => {
@@ -26,7 +25,8 @@ const Signup = () => {
 
     const [fullName, setFullName] = useState();
     const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
+    const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
 
     const handelSubmit = async (e) => {
         e.preventDefault();
@@ -45,6 +45,10 @@ const Signup = () => {
         } else {
             alert("Try Again");
         }
+    };
+
+    const togglePasswordVisibility = () => {
+        setShowPassword(!showPassword);
     };
 
     return (
@@ -108,21 +112,30 @@ const Signup = () => {
                             />
                         </div>
                         <div className="signup-form">
-                            <FaUnlockAlt
-                                className="emailIcon"
-                                style={{ color: "#123591" }}
+                        <FaUnlockAlt
+                            className="emailIcon"
+                            style={{ color: "#123591" }}
+                        />
+                        <input
+                            type={showPassword ? "text" : "password"}
+                            className="emailInput"
+                            placeholder="Password"
+                            required
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
+                        {showPassword ? (
+                            <FaRegEye
+                            className="togglePasswordIcon"
+                            onClick={togglePasswordVisibility}
                             />
-                            <input
-                                type="password"
-                                className="emailInput"
-                                placeholder="Password"
-                                required
-                                value={password}
-                                onChange={(e) => {
-                                    setPassword(e.target.value);
-                                }}
+                        ) : (
+                            <FaRegEyeSlash
+                                className="togglePasswordIcon"
+                                onClick={togglePasswordVisibility}
                             />
-                        </div>
+                        )}
+                    </div>
                         <button type="submit">Sign Up</button>
                     </form>
                     <h6>Copyright © 2024 TruTrade. All rights reserved.</h6>
