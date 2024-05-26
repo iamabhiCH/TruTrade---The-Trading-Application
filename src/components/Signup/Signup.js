@@ -23,8 +23,8 @@ const Signup = () => {
         nextArrow: <CustomArrow />,
     };
 
-    const [fullName, setFullName] = useState();
-    const [email, setEmail] = useState();
+    const [fullName, setFullName] = useState("");
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
 

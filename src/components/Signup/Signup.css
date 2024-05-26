@@ -111,6 +111,7 @@
     text-align: center;
     margin-top: 95px;
     font-weight: 200;
+    margin-bottom: -200px;
 }
 .togglePasswordIcon {
     position: absolute;

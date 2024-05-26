@@ -134,6 +134,7 @@
     text-align: center;
     margin-top: 80px;
     font-weight: 200;
+    margin-bottom: -200px;
 }
 .password-input-container {
     position: relative;
